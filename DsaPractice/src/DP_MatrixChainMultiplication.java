@@ -20,6 +20,7 @@ public class DP_MatrixChainMultiplication
             System.out.println("Current tempAns: "+tempAns+", n1 = "+arr[(i-1)]+" , n2 = "+arr[k] + ", n3 = "+arr[j]);
             if(tempAns<minAns){
                 minAns = tempAns;
+
             }
         }
         return minAns;
